@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(to right, rgb(189, 160, 160), rgb(221, 185, 117)) ;
+}
+
+.container {
+  background-color: rgb(185, 135, 74);
+  border-radius: 25px 25px 25px 25px;
+  min-height: 700px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px ;
+  padding-top: 10px;
+
+}
+
+input {
+  border: 1rem;
+  width: 250px;
+  height: 30px;
+  background-color: rgb(241, 224, 203);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px ;
+ }
+
+ input:focus{
+  border: none;
+  outline: none ;
+ }
+
+button {
+  border: none;
+  background-color: rgb(168, 152, 131);
+  color:white;
+  width: 120px;
+  height: 32px;
+  border-top-right-radius: 10px ;
+  border-bottom-right-radius: 10px;
+}
+
+button:hover{
+  border: none;
+  cursor: pointer;
+  background-color: rgb(161, 113, 50);
+  color: white;
+}
+
+.searchAndClick {
+  display: flex;
+  max-height: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo {
+  text-align: center;
+}
+
+.list {
+  background-color: rgb(241, 224, 203);
+  border-radius: 25px 25px 25px 25px;
+  min-height: 450px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 90px ;
+  display: flex;
+  flex-direction: column;
+
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style-type: circle;
+}
